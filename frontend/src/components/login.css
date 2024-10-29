@@ -1,0 +1,60 @@
+.login-box {
+    width: 400px;
+    margin: 100px auto; /* Centering the box */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(239, 227, 227);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #cee3cf; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .centered-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .centered-links a {
+    color: black; /* Change to black for better visibility */
+    text-decoration: none;
+  }
+  
+  .or {
+    text-align: center;
+    margin: 10px 0;
+    color: black; /* Set the "or" text color to black */
+  }
+  

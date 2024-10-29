@@ -1,0 +1,57 @@
+/* home.css */
+.home-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the content vertically */
+    background-color: #f0f0f0; /* Optional: background color */
+}
+
+.home-container h1 {
+    color: black; /* Ensure this is set to black */
+    font-size: 2.5em; /* Adjust font size as needed */
+    text-align: center; /* Center the text */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.features {
+    margin-bottom: 30px; /* Space below the features section */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.action-links {
+    margin-top: 20px; /* Space above the action links */
+}
+
+.action-links a {
+    margin: 0 15px; /* Space between the links */
+    padding: 10px 20px; /* Padding for links */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.action-links a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Optional styles for h2 and p if needed */
+h2 {
+    color: #4CAF50; /* Green color for subtitles */
+    margin-bottom: 15px; /* Space below the subtitle */
+}
+
+p {
+    font-size: 1.2em; /* Font size for the paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
+}

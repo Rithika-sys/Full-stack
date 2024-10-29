@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  background-color: #fffafa; /* Light background color */
+}
+
+.signup-container {
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.929); /* White background for the signup container */
+  text-align: center; /* Center text within the container */
+}
+
+.signup-container h2 {
+  color: black; /* Change the color to black */
+  text-align: center; /* Center align the text */
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8fff848; /* Same background color for all input fields (light green) */
+  color: #333; /* Text color for input fields */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3e821; /* Green color for the signup button */
+  color: white; /* Text color for the signup button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #1114a9; /* Darker green on hover */
+}
+
+.inline-buttons {
+  display: flex;
+  justify-content: space-between; /* Space buttons evenly */
+  margin-bottom: 20px;
+}
+
+.google-btn {
+  width: 48%; /* Adjust width to fit in the row */
+  padding: 10px;
+  background-color: #db4437; /* Red color for Google */
+  color: white; /* Text color for Google button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.facebook-btn {
+  width: 48%; /* Adjust width to fit in the row */
+  padding: 10px;
+  background-color: #3b5998; /* Blue color for Facebook */
+  color: white; /* Text color for Facebook button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.or {
+  color: black; /* Set the color of the 'or' text to black */
+  margin: 10px 0;
+  font-weight: bold; /* Optional: Make it bold for better visibility */
+}
+
+.centered-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.centered-links p {
+  color: black; /* Change the text color to black for the paragraph */
+}
+
+.centered-links a {
+  color: #1bcc5f; /* Green color for links */
+  text-decoration: none;
+}
+
+.centered-links a:hover {
+  text-decoration: underline;
+}

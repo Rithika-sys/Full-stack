@@ -1,0 +1,16 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+ 
+generator client {
+  provider = "prisma-client-js"
+}
+ 
+model User {
+    id       Int    @id @default(autoincrement())  // Unique ID field, auto-incremented
+    name     String                              // Name field
+    username String @unique                      // Username field, must be unique
+    email    String @unique                      // Email field, must be unique
+    password String                              // Password field
+}
